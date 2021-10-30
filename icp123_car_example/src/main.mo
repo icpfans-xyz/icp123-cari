@@ -1,12 +1,11 @@
 import Result "mo:base/Result";
-import Icp123crd "mo:icp123car/ICP123CAR";
-import Icp123Type "mo:icp123car/Type";
+import ICP123CARI "mo:icp123cari/ICP123CARI";
 
-shared ({caller = owner}) actor class ICP123CRD() : async Icp123crd.RegisterInterface {
+shared ({caller = owner}) actor class ICP123CRDExample() : async ICP123CARI.RegisterInterface {
     
 
    
-    type CARData = Icp123Type.CARData;
+    type CARData = ICP123CARI.CARData;
 
     // private var _likesMap = HashMap.HashMap<Principal, Bool>(1, Principal.equal, Principal.hash);
 

@@ -1,17 +1,17 @@
 {
   "canisters": {
-    "icp123_crd": {
-      "main": "src/ICP123CAR.mo",
+    "icp123_cari": {
+      "main": "src/ICP123CARI.mo",
       "type": "motoko"
     },
-    "icp123_crs": {
-      "main": "icp123_car/main.mo",
+    "icp123_car_example": {
+      "main": "icp123_car_example/src/main.mo",
       "type": "motoko"
     }
   },
   "defaults": {
     "build": {
-      "packtool": "vessel sources"
+      "packtool": ""
     }
   },
   "dfx": "0.8.3",

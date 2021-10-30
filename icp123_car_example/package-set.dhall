@@ -12,7 +12,7 @@ let additions = [
   { dependencies = [ "base" ] : List Text
   , name = "icp123cari"
   , repo = "https://github.com/icpfans-xyz/icp123-cari"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 ] : List Package
 
